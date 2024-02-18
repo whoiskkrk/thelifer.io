@@ -1,0 +1,45 @@
+/*common.css*/
+:root {
+    --main-text-color: #fafafa;
+    --main-bg-color: #1B1611;
+    --primary-font-family: 'Syne', sans-serif;
+}
+
+/*header*/
+
+#main-page-nav-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+#main-page-nav-menu ul a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+#main-page-nav-menu ul a:hover {
+    color: #28FD64;
+}
+
+
+
+/*block - new releases*/
+
+.block-1 {
+    background: url(/images/cover1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 35rem;
+}
+
+
+/*running line*/
+
+.running-line {
+    background-color: #28FD64;
+}

@@ -1,0 +1,10 @@
+/*main.css*/
+
+@import url(common.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+body {
+    color: var(--main-text-color);
+    background: var(--main-bg-color);
+    font-family: var(--primary-font-family);
+}
