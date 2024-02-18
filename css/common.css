@@ -31,12 +31,11 @@
 /*block - new releases*/
 
 .block-1 {
-    background: url(/images/cover1.jpg);
+    background-image: url(./cover1.jpg);
     background-position: center center;
     background-size: cover;
     height: 35rem;
 }
-
 
 /*running line*/
 
