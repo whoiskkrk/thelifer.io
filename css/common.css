@@ -8,7 +8,7 @@
 /*block - new releases*/
 
 #new-releases {
-    background-image: url(images/cover2.jpg); 
+    background-image: url(./images/cover2.jpg); 
     background-position: center center;
     background-size: cover;
     height: 36.5rem;
