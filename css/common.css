@@ -5,38 +5,47 @@
     --primary-font-family: 'Syne', sans-serif;
 }
 
-/*header*/
+/*block - new releases*/
 
-#main-page-nav-menu ul {
+#new-releases {
+    background-image: url(/images/cover2.jpg); 
+    background-position: center center;
+    background-size: cover;
+    height: 36.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;
-    padding: 0;
+    height: 100vh;
 }
 
-#main-page-nav-menu ul a {
-    color: var(--main-text-color);
+h1 {
+    font-size: 90px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.btn-blue {
+    color: #fafafa;
+    font-size: 30px;
     text-decoration: none;
-    text-transform: uppercase;
-    margin-right: 2rem;
+
+    background-color:#212AFF;
+    background-size: 100% 300%;
+    padding: 10px 100px;
+    border: 3px midnightblue solid;
+
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-#main-page-nav-menu ul a:hover {
-    color: #28FD64;
-}
-
-
-
-/*block - new releases*/
-
-/*.block-1 {
-    background-image: url(розібратися зі шляхом до картинки); 
-    background-position: center center;
-    background-size: cover;
-    height: 35rem;
-}*/
-
 
 
 /*running line*/
