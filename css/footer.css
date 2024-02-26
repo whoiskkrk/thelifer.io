@@ -36,7 +36,7 @@ h3 {
     font-weight: 700;
 }
 
-& .footer-social-list {
+/* & .footer-social-list {
     background-color: var(--footer-background-color);
     display: flex;
     justify-content: center;
@@ -58,4 +58,4 @@ h3 {
         text-decoration: none;
         margin-right: 2rem;
     }
-} 
+}  */

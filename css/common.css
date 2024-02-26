@@ -47,6 +47,12 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.btn-blue:hover {
+    background-image: linear-gradient(to right, #212AFF, #28FD64)
+}
+
+
+
 
 /*running line*/
 

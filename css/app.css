@@ -1,14 +1,13 @@
 
 #services {
-    text-align: center;
+    display: flex;
+    padding: 2rem 5rem;
+    justify-content: space-between;
+    
+    > .service-icons {
+        align-items: center;
+        text-align: center;
+    }
 }
 
-.service-icons {
-    display: inline-block;
-    margin: 30px;
-    text-align: center;
-}
 
-.text-start {
-    margin: 10px 0;
-}
